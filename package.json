@@ -1,0 +1,22 @@
+{
+  "name": "jewellery-store-pro",
+  "version": "2.0.0",
+  "description": "Jewellery Store PRO \u2014 sellable white-label e-commerce for Gold/Silver/Imitation jewellers (Web + Android, Razorpay+COD, OTP+Google)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node server.js --seed",
+    "check": "node --check server.js && node --check pro-routes.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
